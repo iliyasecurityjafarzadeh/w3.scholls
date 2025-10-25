@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        W3Schools Online Web Tutorials
+    </title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/amir.css">
+    <style>
+        .no-hover:hover{
+            background-color: transparent !important;
+            padding: 0 0 0 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="hfixed">
+        <div class="flex bg-white justify-between items-center w-full">
+            <div>
+                <a href="index.html">
+                    <img src="image/logo-w3.png" alt="logo-w3">
+                </a>
+            </div>
+            <nav class="d-flex">
+                <ul class="ul-setting">
+                    <li class=""><a class="show-1-hover a-setting li-setting px-3 py-2" href="">Tutorials</a>
+                    </li>
+
+
+
+                    <li class=""><a class="show-2-hover a-setting li-setting px-3 py-2" href="">References</a>
+                    </li>
+
+                    <li class=""><a class="show-3-hover a-setting li-setting px-3 py-2" href="">Exercises</a>
+                    </li>
+
+                    <li class=""><a class="show-5-hover a-setting li-setting px-3 py-2" href="">Certificates</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="relative">
+                <form action="#" class="flex ">
+                    <input type="search" placeholder="search..." class="search w-7 ">
+                    <span class="absolute zare ">
+                        <a href="#">
+                            <svg width="15" height="15" viewBox="0 0 17 17" fill="var(--sf-accent-overlay)">
+                                <path
+                                    d="M7.75008 0.666016C11.6621 0.666016 14.8334 3.83733 14.8334 7.74935C14.8334 9.40479 14.2655 10.9276 13.3139 12.1336L16.5477 15.3684C16.8731 15.6939 16.8731 16.2215 16.5477 16.5469C16.2222 16.8724 15.6946 16.8724 15.3692 16.5469L12.1343 13.3132C10.9283 14.2648 9.40552 14.8327 7.75008 14.8327C3.83806 14.8327 0.666748 11.6614 0.666748 7.74935C0.666748 3.83733 3.83806 0.666016 7.75008 0.666016ZM7.75008 2.33268C4.75854 2.33268 2.33341 4.75781 2.33341 7.74935C2.33341 10.7409 4.75854 13.166 7.75008 13.166C10.7416 13.166 13.1667 10.7409 13.1667 7.74935C13.1667 4.75781 10.7416 2.33268 7.75008 2.33268Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </span>
+                </form>
+            </div>
+            <div class="amir2">
+                <a href="#" class="items-center flex ">
+                    <span class="text-purple-800 p-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512"
+                            focusable="false" class="chakra-icon css-9gdywz" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z">
+                            </path>
+                        </svg>
+                    </span>
+                    <p class="pp">
+                        for teachers
+                    </p>
+                </a>
+            </div>
+            <div class="amir2">
+                <a href="#" class="items-center flex ">
+                    <span class="text-purple-800 p-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512"
+                            focusable="false" class="chakra-icon css-9gdywz" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z">
+                            </path>
+                        </svg>
+                    </span>
+                    <p class="pp">
+                        for teachers
+                    </p>
+                </a>
+            </div>
+            <div class="amir2">
+                <a href="#" class="items-center flex ">
+                    <span class="text-purple-800 p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" aria-hidden="true">
+                            <path
+                                d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </span>
+                    <p class="pp">
+                        upgrade
+                    </p>
+                </a>
+            </div>
+            <div class="amir2">
+                <a href="#" class="items-center flex ">
+                    <span class="text-purple-800 p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" aria-hidden="true">
+                            <path
+                                d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </span>
+                    <p class="pp">
+                        get Certified
+                    </p>
+                </a>
+            </div>
+
+            <div class=" dd1">
+                <a href="#" class="bg-green-700 text-white aa1 p-2">
+                    <span class="material-symbols-outlined ">
+                        person
+                    </span>
+                    sing in
+
+                </a>
+
+            </div>
+        </div>
+
+
+
+        <div class="w-full zir-head ">
+            <ul class="flex uu justify-between items-center p-ab">
+
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+                <li><a href="#" class="amir no-hover">html</a></li>
+                <li><a href="#" class="amir no-hover">css</a></li>
+
+            </ul>
+        </div>
+
+
+
+
+
+    </header>
+    <main class="mt-16">
+
+        <section>
+            <div class="show-1 w-100 px-5 bg-dark py-5" id="close1-menu">
+
+                <div class="container">
+
+                    <div class="d-flex justify-content-between my-3 py-3">
+                        <h2 class="text-khaki">Tutorials</h2>
+                        <input type="text" class="input-filter" placeholder="Filter">
+                        <button type="button" class="btn-close bg-white" id="close-1-btn" aria-label="Close"></button>
+
+                    </div>
+                    <div class="container">
+                        <div class="ul-list">
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">HTML and CSS</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Data Analytics</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">JavaScript</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Web Bulding</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">Backend</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-2 w-100 px-5 bg-dark py-5" id="close2-menu">
+
+                <div class="container">
+
+                    <div class="d-flex justify-content-between my-3 py-3">
+                        <h2 class="text-khaki">Tutorials</h2>
+                        <input type="text" class="input-filter" placeholder="Filter">
+                        <button type="button" class="btn-close bg-white" id="close-2-btn" aria-label="Close"></button>
+
+                    </div>
+                    <div class="container">
+                        <div class="ul-list">
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">HTML and CSS</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">JavaScript</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">Backend</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-3 w-100 px-5 bg-dark py-5" id="close3-menu">
+
+                <div class="container">
+
+                    <div class="d-flex justify-content-between my-3 py-3">
+                        <h2 class="text-khaki">Tutorials</h2>
+                        <input type="text" class="input-filter" placeholder="Filter">
+                        <button type="button" class="btn-close bg-white" id="close-3-btn" aria-label="Close"></button>
+
+                    </div>
+                    <div class="container">
+                        <div class="ul-list">
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">HTML and CSS</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+
+
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Data Analytics</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <li class="btn-1 text-center"><a class="ab-setting" href="">Click</a></li>
+                                    <br>
+                                    <li class="btn-1 text-center"><a class="ab-setting" href="">Click</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">JavaScript</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">Backend</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-4 w-100 px-5 bg-dark py-5" id="close4-menu">
+
+                <div class="container">
+
+                    <div class="d-flex justify-content-between my-3 py-3">
+                        <h2 class="text-khaki">Tutorials</h2>
+                        <input type="text" class="input-filter" placeholder="Filter">
+                        <button type="button" class="btn-close bg-white" id="close-4-btn" aria-label="Close"></button>
+
+                    </div>
+                    <div class="container">
+                        <div class="ul-list">
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">HTML and CSS</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Data Analytics</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">JavaScript</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Web Bulding</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">Backend</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-5 w-100 px-5 bg-dark py-5" id="close5-menu">
+
+                <div class="container">
+
+                    <div class="d-flex justify-content-between my-3 py-3">
+                        <h2 class="text-khaki">Tutorials</h2>
+                        <input type="text" class="input-filter" placeholder="Filter">
+                        <button type="button" class="btn-close bg-white" id="close-5-btn" aria-label="Close"></button>
+
+                    </div>
+                    <div class="container">
+                        <div class="ul-list">
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">HTML and CSS</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Data Analytics</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">JavaScript</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <h3 class="text-khaki">Web Bulding</h3>
+
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a><span class="badge text-bg-secondary bg-danger">Hot</span>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            AI</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="menu">
+                                <ul class="ul-list-setting-1">
+                                    <h4 class="text-khaki">Backend</h4>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                    <li><a href="" class="li-list-setting-1 px-2 py-2 text-white">Learn
+                                            Html</a> <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                        <a href="" class="li-list-setting-2 px-1 py-1 text-khaki">Text</a>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="part1-1" class="part1-1 relative">
+            <div class=" w-6 mx-auto text-center pt-12">
+                <h1 class="text-white hh">
+                    Learn to Code
+                </h1>
+                <h3 class="hh3">
+                    With the world's largest web developer site.
+                </h3>
+                <form action="#" class="form1">
+                    <input type="search" placeholder="Search our tutorials, e.g. HTML" class="search2">
+                    <a href="#" class="aa3">
+                        <span>
+                            <svg width="15" height="15" viewBox="0 0 17 17" fill="var(--sf-accent-overlay)">
+                                <path
+                                    d="M7.75008 0.666016C11.6621 0.666016 14.8334 3.83733 14.8334 7.74935C14.8334 9.40479 14.2655 10.9276 13.3139 12.1336L16.5477 15.3684C16.8731 15.6939 16.8731 16.2215 16.5477 16.5469C16.2222 16.8724 15.6946 16.8724 15.3692 16.5469L12.1343 13.3132C10.9283 14.2648 9.40552 14.8327 7.75008 14.8327C3.83806 14.8327 0.666748 11.6614 0.666748 7.74935C0.666748 3.83733 3.83806 0.666016 7.75008 0.666016ZM7.75008 2.33268C4.75854 2.33268 2.33341 4.75781 2.33341 7.74935C2.33341 10.7409 4.75854 13.166 7.75008 13.166C10.7416 13.166 13.1667 10.7409 13.1667 7.74935C13.1667 4.75781 10.7416 2.33268 7.75008 2.33268Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                </form>
+                <h4 class="hh4 mx-auto">
+                    <a href="#" class="text-white block aa4">
+                        Not Sure Where To Begin?
+                    </a>
+                </h4>
+            </div>
+            <div class="absolute lynx">
+                <img src="image/lynx_in_space.webp" alt="background_in_space">
+            </div>
+        </section>
+        <div>
+            <span>
+                <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100"
+                    preserveAspectRatio="none">
+                    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+                </svg>
+            </span>
+        </div>
+        <section id="part1-2" class="part1-2">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html2 no-underline text-center text-black">
+                        Video Tutorial
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html">
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html">
+                                    << /span>
+                                        !DOCTYPE
+                                        <span class="s3-html">html</span>
+                                        <span class="s2-html">></span>
+                                </span>
+                                <br>
+                                <span class="s-html">
+                                    <span class="s2-html">
+                                        << /span>
+                                            html
+                                            <span class="s2-html">></span>
+                                    </span>
+                                    <br>
+                                    <span class="s-html">
+                                        <span class="s2-html">
+                                            << /span>
+                                                head
+                                                <span class="s2-html">></span>
+                                        </span>
+                                        <br>
+                                        <span class="s-html">
+                                            <span class="s2-html">
+                                                << /span>
+                                                    title
+                                                    <span class="s2-html">></span>
+                                            </span>
+                                            HTML Tutorial
+                                            <span class="s-html">
+                                                <span class="s2-html">
+                                                    << /span>
+                                                        /title
+                                                        <span class="s2-html">></span>
+                                                </span>
+                                                <br>
+                                                <span class="s-html">
+                                                    <span class="s2-html">
+                                                        << /span>
+                                                            /head
+                                                            <span class="s2-html">></span>
+                                                    </span>
+                                                    <br>
+                                                    <span class="s-html">
+                                                        <span class="s2-html">
+                                                            << /span>
+                                                                body
+                                                                <span class="s2-html">></span>
+                                                        </span>
+                                                        <br><br>
+                                                        <span class="s-html">
+                                                            <span class="s2-html">
+                                                                << /span>
+                                                                    h1
+                                                                    <span class="s2-html">></span>
+                                                            </span>
+                                                            This is a heading
+                                                            <span class="s-html">
+                                                                <span class="s2-html">
+                                                                    << /span>
+                                                                        /h1
+                                                                        <span class="s2-html">></span>
+                                                                </span>
+                                                                <br>
+                                                                <span class="s-html">
+                                                                    <span class="s2-html">
+                                                                        << /span>
+                                                                            p
+                                                                            <span class="s2-html">></span>
+                                                                    </span>
+                                                                    This is a paragraph.
+                                                                    <span class="s-html">
+                                                                        <span class="s2-html">
+                                                                            << /span>
+                                                                                /p
+                                                                                <span class="s2-html">></span>
+                                                                        </span>
+                                                                        <br><br>
+                                                                        <span class="s-html">
+                                                                            <span class="s2-html">
+                                                                                << /span>
+                                                                                    /body
+                                                                                    <span class="s2-html">></span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="s-html">
+                                                                                <span class="s2-html">
+                                                                                    << /span>
+                                                                                        /html
+                                                                                        <span class="s2-html">></span>
+                                                                                </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="part1-3" class="part1-3">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html">
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html">
+                                    << /span>
+                                        !DOCTYPE
+                                        <span class="s3-html">html</span>
+                                        <span class="s2-html">></span>
+                                </span>
+                                <br>
+                                <span class="s-html">
+                                    <span class="s2-html">
+                                        << /span>
+                                            html
+                                            <span class="s2-html">></span>
+                                    </span>
+                                    <br>
+                                    <span class="s-html">
+                                        <span class="s2-html">
+                                            << /span>
+                                                head
+                                                <span class="s2-html">></span>
+                                        </span>
+                                        <br>
+                                        <span class="s-html">
+                                            <span class="s2-html">
+                                                << /span>
+                                                    title
+                                                    <span class="s2-html">></span>
+                                            </span>
+                                            HTML Tutorial
+                                            <span class="s-html">
+                                                <span class="s2-html">
+                                                    << /span>
+                                                        /title
+                                                        <span class="s2-html">></span>
+                                                </span>
+                                                <br>
+                                                <span class="s-html">
+                                                    <span class="s2-html">
+                                                        << /span>
+                                                            /head
+                                                            <span class="s2-html">></span>
+                                                    </span>
+                                                    <br>
+                                                    <span class="s-html">
+                                                        <span class="s2-html">
+                                                            << /span>
+                                                                body
+                                                                <span class="s2-html">></span>
+                                                        </span>
+                                                        <br><br>
+                                                        <span class="s-html">
+                                                            <span class="s2-html">
+                                                                << /span>
+                                                                    h1
+                                                                    <span class="s2-html">></span>
+                                                            </span>
+                                                            This is a heading
+                                                            <span class="s-html">
+                                                                <span class="s2-html">
+                                                                    << /span>
+                                                                        /h1
+                                                                        <span class="s2-html">></span>
+                                                                </span>
+                                                                <br>
+                                                                <span class="s-html">
+                                                                    <span class="s2-html">
+                                                                        << /span>
+                                                                            p
+                                                                            <span class="s2-html">></span>
+                                                                    </span>
+                                                                    This is a paragraph.
+                                                                    <span class="s-html">
+                                                                        <span class="s2-html">
+                                                                            << /span>
+                                                                                /p
+                                                                                <span class="s2-html">></span>
+                                                                        </span>
+                                                                        <br><br>
+                                                                        <span class="s-html">
+                                                                            <span class="s2-html">
+                                                                                << /span>
+                                                                                    /body
+                                                                                    <span class="s2-html">></span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="s-html">
+                                                                                <span class="s2-html">
+                                                                                    << /span>
+                                                                                        /html
+                                                                                        <span class="s2-html">></span>
+                                                                                </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="part1-4" class="part1-4">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html2 no-underline text-center text-black">
+                        Video Tutorial
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html">
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html">
+                                    << /span>
+                                        !DOCTYPE
+                                        <span class="s3-html">html</span>
+                                        <span class="s2-html">></span>
+                                </span>
+                                <br>
+                                <span class="s-html">
+                                    <span class="s2-html">
+                                        << /span>
+                                            html
+                                            <span class="s2-html">></span>
+                                    </span>
+                                    <br>
+                                    <span class="s-html">
+                                        <span class="s2-html">
+                                            << /span>
+                                                head
+                                                <span class="s2-html">></span>
+                                        </span>
+                                        <br>
+                                        <span class="s-html">
+                                            <span class="s2-html">
+                                                << /span>
+                                                    title
+                                                    <span class="s2-html">></span>
+                                            </span>
+                                            HTML Tutorial
+                                            <span class="s-html">
+                                                <span class="s2-html">
+                                                    << /span>
+                                                        /title
+                                                        <span class="s2-html">></span>
+                                                </span>
+                                                <br>
+                                                <span class="s-html">
+                                                    <span class="s2-html">
+                                                        << /span>
+                                                            /head
+                                                            <span class="s2-html">></span>
+                                                    </span>
+                                                    <br>
+                                                    <span class="s-html">
+                                                        <span class="s2-html">
+                                                            << /span>
+                                                                body
+                                                                <span class="s2-html">></span>
+                                                        </span>
+                                                        <br><br>
+                                                        <span class="s-html">
+                                                            <span class="s2-html">
+                                                                << /span>
+                                                                    h1
+                                                                    <span class="s2-html">></span>
+                                                            </span>
+                                                            This is a heading
+                                                            <span class="s-html">
+                                                                <span class="s2-html">
+                                                                    << /span>
+                                                                        /h1
+                                                                        <span class="s2-html">></span>
+                                                                </span>
+                                                                <br>
+                                                                <span class="s-html">
+                                                                    <span class="s2-html">
+                                                                        << /span>
+                                                                            p
+                                                                            <span class="s2-html">></span>
+                                                                    </span>
+                                                                    This is a paragraph.
+                                                                    <span class="s-html">
+                                                                        <span class="s2-html">
+                                                                            << /span>
+                                                                                /p
+                                                                                <span class="s2-html">></span>
+                                                                        </span>
+                                                                        <br><br>
+                                                                        <span class="s-html">
+                                                                            <span class="s2-html">
+                                                                                << /span>
+                                                                                    /body
+                                                                                    <span class="s2-html">></span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="s-html">
+                                                                                <span class="s2-html">
+                                                                                    << /span>
+                                                                                        /html
+                                                                                        <span class="s2-html">></span>
+                                                                                </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="part1-5" class="part1-5">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html">
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html">
+                                    << /span>
+                                        !DOCTYPE
+                                        <span class="s3-html">html</span>
+                                        <span class="s2-html">></span>
+                                </span>
+                                <br>
+                                <span class="s-html">
+                                    <span class="s2-html">
+                                        << /span>
+                                            html
+                                            <span class="s2-html">></span>
+                                    </span>
+                                    <br>
+                                    <span class="s-html">
+                                        <span class="s2-html">
+                                            << /span>
+                                                head
+                                                <span class="s2-html">></span>
+                                        </span>
+                                        <br>
+                                        <span class="s-html">
+                                            <span class="s2-html">
+                                                << /span>
+                                                    title
+                                                    <span class="s2-html">></span>
+                                            </span>
+                                            HTML Tutorial
+                                            <span class="s-html">
+                                                <span class="s2-html">
+                                                    << /span>
+                                                        /title
+                                                        <span class="s2-html">></span>
+                                                </span>
+                                                <br>
+                                                <span class="s-html">
+                                                    <span class="s2-html">
+                                                        << /span>
+                                                            /head
+                                                            <span class="s2-html">></span>
+                                                    </span>
+                                                    <br>
+                                                    <span class="s-html">
+                                                        <span class="s2-html">
+                                                            << /span>
+                                                                body
+                                                                <span class="s2-html">></span>
+                                                        </span>
+                                                        <br><br>
+                                                        <span class="s-html">
+                                                            <span class="s2-html">
+                                                                << /span>
+                                                                    h1
+                                                                    <span class="s2-html">></span>
+                                                            </span>
+                                                            This is a heading
+                                                            <span class="s-html">
+                                                                <span class="s2-html">
+                                                                    << /span>
+                                                                        /h1
+                                                                        <span class="s2-html">></span>
+                                                                </span>
+                                                                <br>
+                                                                <span class="s-html">
+                                                                    <span class="s2-html">
+                                                                        << /span>
+                                                                            p
+                                                                            <span class="s2-html">></span>
+                                                                    </span>
+                                                                    This is a paragraph.
+                                                                    <span class="s-html">
+                                                                        <span class="s2-html">
+                                                                            << /span>
+                                                                                /p
+                                                                                <span class="s2-html">></span>
+                                                                        </span>
+                                                                        <br><br>
+                                                                        <span class="s-html">
+                                                                            <span class="s2-html">
+                                                                                << /span>
+                                                                                    /body
+                                                                                    <span class="s2-html">></span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="s-html">
+                                                                                <span class="s2-html">
+                                                                                    << /span>
+                                                                                        /html
+                                                                                        <span class="s2-html">></span>
+                                                                                </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="part1-6" class="part1-6">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html">
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html">
+                                    << /span>
+                                        !DOCTYPE
+                                        <span class="s3-html">html</span>
+                                        <span class="s2-html">></span>
+                                </span>
+                                <br>
+                                <span class="s-html">
+                                    <span class="s2-html">
+                                        << /span>
+                                            html
+                                            <span class="s2-html">></span>
+                                    </span>
+                                    <br>
+                                    <span class="s-html">
+                                        <span class="s2-html">
+                                            << /span>
+                                                head
+                                                <span class="s2-html">></span>
+                                        </span>
+                                        <br>
+                                        <span class="s-html">
+                                            <span class="s2-html">
+                                                << /span>
+                                                    title
+                                                    <span class="s2-html">></span>
+                                            </span>
+                                            HTML Tutorial
+                                            <span class="s-html">
+                                                <span class="s2-html">
+                                                    << /span>
+                                                        /title
+                                                        <span class="s2-html">></span>
+                                                </span>
+                                                <br>
+                                                <span class="s-html">
+                                                    <span class="s2-html">
+                                                        << /span>
+                                                            /head
+                                                            <span class="s2-html">></span>
+                                                    </span>
+                                                    <br>
+                                                    <span class="s-html">
+                                                        <span class="s2-html">
+                                                            << /span>
+                                                                body
+                                                                <span class="s2-html">></span>
+                                                        </span>
+                                                        <br><br>
+                                                        <span class="s-html">
+                                                            <span class="s2-html">
+                                                                << /span>
+                                                                    h1
+                                                                    <span class="s2-html">></span>
+                                                            </span>
+                                                            This is a heading
+                                                            <span class="s-html">
+                                                                <span class="s2-html">
+                                                                    << /span>
+                                                                        /h1
+                                                                        <span class="s2-html">></span>
+                                                                </span>
+                                                                <br>
+                                                                <span class="s-html">
+                                                                    <span class="s2-html">
+                                                                        << /span>
+                                                                            p
+                                                                            <span class="s2-html">></span>
+                                                                    </span>
+                                                                    This is a paragraph.
+                                                                    <span class="s-html">
+                                                                        <span class="s2-html">
+                                                                            << /span>
+                                                                                /p
+                                                                                <span class="s2-html">></span>
+                                                                        </span>
+                                                                        <br><br>
+                                                                        <span class="s-html">
+                                                                            <span class="s2-html">
+                                                                                << /span>
+                                                                                    /body
+                                                                                    <span class="s2-html">></span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="s-html">
+                                                                                <span class="s2-html">
+                                                                                    << /span>
+                                                                                        /html
+                                                                                        <span class="s2-html">></span>
+                                                                                </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black ">
+            <div class="container">
+                <div class="row">
+                    <div class="mt-3 col-12 col-md-6">
+                        <a href="#" class="khat">
+                            <div class="card text-center mt-5 p-4">
+                                <h2 class="text-black">
+                                    PHP
+                                </h2>
+                                <p>
+                                    <b>
+                        </a>
+                        A web server programing language
+                        </b>
+                        </p>
+                        <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                            Learn PHP
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-3 col-12 col-md-6">
+                    <a href="#" class="khat">
+                        <div class="card text-center mt-5 p-4">
+                            <h2 class="text-black">
+                                PHP
+                            </h2>
+                            <p>
+                                <b>
+                    </a>
+                    A web server programing language
+                    </b>
+                    </p>
+                    <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                        Learn PHP
+                    </a>
+                </div>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-4">
+                        <h2 class="text-black">
+                            PHP
+                        </h2>
+                        <p>
+                            <b>
+                </a>
+                A web server programing language
+                </b>
+                </p>
+                <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                    Learn PHP
+                </a>
+            </div>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-4">
+                        <h2 class="text-black">
+                            PHP
+                        </h2>
+                        <p>
+                            <b>
+                </a>
+                A web server programing language
+                </b>
+                </p>
+                <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                    Learn PHP
+                </a>
+            </div>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-4">
+                        <h2 class="text-black">
+                            PHP
+                        </h2>
+                        <p>
+                            <b>
+                </a>
+                A web server programing language
+                </b>
+                </p>
+                <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                    Learn PHP
+                </a>
+            </div>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-4">
+                        <h2 class="text-black">
+                            PHP
+                        </h2>
+                        <p>
+                            <b>
+                </a>
+                A web server programing language
+                </b>
+                </p>
+                <a href="#" class="btn rounded-pill text-white mx-auto w-25 bg-black">
+                    Learn PHP
+                </a>
+            </div>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3">
+                        <h2>
+                            c
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3">
+                        <h2>
+                            c#
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3  iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card2 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-3">
+                <a href="#" class="khat">
+                    <div class="card1 text-center mt-5 p-3 iliya">
+                        <h2>
+                            jango
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-info text-black text-center mt-5 p-3 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-pink text-black text-center mt-5 p-3 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-pink text-black text-center mt-5 p-3 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-info text-black text-center mt-5 p-3 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-info text-black text-center mt-5 p-3 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 col-12 col-md-6">
+                <a href="#" class="khat">
+                    <div class="bg-pink text-black text-center mt-5 p-3 mb-5 iliya">
+                        <h2>
+                            excel
+                        </h2>
+
+                    </div>
+                </a>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="bg-info-subtle">
+            <div class="container">
+                <h3 class="text-black text-center p-10 font">
+
+                    Log in / Sign Up
+
+                </h3>
+                <p class="text-black text-center">
+                    <b>
+                        Create a free account to track your progress, and get access to more features and learning
+                        materials.
+                    </b>
+                </p>
+                <img src="image/1.webp" class="w-100 mx-auto" alt="1">
+                <a href="#" class="btn rounded-pill bg-success w-25 text-white text-center mb-5 d-flex justify-content-center">
+                    Sign Up for Free
+                </a>
+            </div>
+        </section>
+        <section class="bg-black">
+            <div class="container">
+                <h3 class="text-white text-center font p-5">
+                    Code Editor
+                </h3>
+                <p class="text-white text-center">
+                    <b>
+                        With our online code editor, you can edit code and view the result in your browser
+                    </b>
+                </p>
+                <img src="image/2.webp" class="w-100 mt-5" alt="2">
+                <a href="#" class="btn rounded-pill  hover mt-4">
+                    Try Frontend Editor (HTML/CSS/JS)
+                </a>
+                <br>
+                <a href="#" class="btn rounded-pill bg-warning hover1 mt-4 mb-5">
+                    Try Backend Editor (Python/PHP/Java/C..)
+                </a>
+            </div>
+        </section>
+        <section class="bg-white25">
+            <div class="container">
+                <h3 class="text-black text-center font p-5">
+                    W3Schools Spaces
+                </h3>
+                <p class="text-black text-center">
+                    <b>
+                        If you want to create your own website, check out
+                        <span>
+                            <a href="#" class="text-success">
+                                W3Schools Spaces.
+                            </a>
+                            <br>
+                        </span>
+                        It is free to use, and does not require any setup:
+                    </b>
+                </p>
+                <img src="image/3.webp" class="w-100 mt-5" alt="3">
+                <a href="#" class="btn rounded-pill bg-success text-white w-25 mb-5 mt-5">
+                    Learn More
+                </a>
+            </div>
+        </section>
+        <section class="bg-black">
+            <div class="container">
+                <h2 class="font text-white text-center p-5">
+                    Become a Plus User
+                </h2>
+                <h4 class="text-pink text-center">
+                    And unlock powerful features:
+                </h4>
+
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+                <p class="text-white text-center">
+                    <span class="material-symbols-outlined text-white">
+                        check
+                    </span>
+                    Browse W3Schools without ads
+                </p>
+
+                <a href="#" class="btn rounded-pill bg-success text-white w-25 mb-5 mt-5">
+                    Learn More
+                </a>
+            </div>
+        </section>
+        <section class="bg-black1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-white text-center p-5 font">
+                            For Teachers
+                        </h3>
+                        <p class="text-white text-center">
+                            <b>
+                                Streamline your teaching:
+                            </b>
+                        </p>
+
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+                        <p class="text-white text-center">
+                            <span class="material-symbols-outlined text-white">
+                                check
+                            </span>
+                            Customize study plans
+                        </p>
+
+
+
+                        <a href="#" class="btn w-25 rounded-pill text-white bg-success">
+                            Learn More
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 p-5">
+                        <a href="#">
+                            <img src="image/4.webp" class="w-100" alt="4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white25">
+            <div class="container">
+                <h3 class="font text-black text-center pt-5">
+                    Color Picker
+                </h3>
+                <p class="text-black text-center mt-5">
+                    W3Schools' famous color picker:
+                </p>
+                <a href="https://www.w3schools.com/colors/colors_picker.asp">
+                    <img src="image/5.webp" class="mx-auto" alt="5">
+                </a>
+            </div>
+        </section>
+        <section class="bg-info-subtle">
+            <div class="container">
+                <h3 class="text-black text-center font pt-5">Code Game</h3>
+                <p class="text-black font1 text-center">Help the Lynx collect pine cones!</p>
+                <a href="https://www.w3schools.com/codegame/index.html">
+                    <img src="image/6.webp" alt="6">
+                </a>
+                <br>
+                <a href="#" class="btn rounded-pill bg-black text-white mx-auto text-center">
+                    play game
+                </a>
+            </div>
+        </section>
+        <section class="bg-black1">
+            <div class="container">
+                <h3 class="text-center text-white font pt-5">Exercises and Quizzes</h3>
+                <p class="text-center text-white mt-5">Test your skills!</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <a href="#" class="khat">
+                            <div class="bg-success text-white text-center p-5 mt-5">
+                                <b>
+                                    Quizzes
+                                </b>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#" class="khat">
+                            <div class="bg-warning text-black text-center p-5 mt-5 mb-5">
+                                <b>
+                                    Quizzes
+                                </b>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary-subtle">
+            <div class="container">
+                <h4 class="font text-black text-center p-5">
+                    Web Templates
+                </h4>
+                <p class=" text-black text-center">
+                    Browse our selection of free responsive HTML Templates
+                </p>
+                <a href="https://www.w3schools.com/w3css/w3css_templates.asp">
+                    <img src="image/7.webp" class="mt-5" alt="7">
+                </a>
+
+                <a href="#" class="btn rounded-pill bg-black text-white w-25 mt-5 mb-5 ">
+                    Browse Templates
+                </a>
+            </div>
+        </section>
+        <section class="bg-black1">
+            <div class="container">
+                <h4 class="text-pink text-end font p-5">
+                    Kickstart your career
+                    <br>
+
+                    <br>
+
+
+                    Get certified by completing a course
+
+                </h4>
+                <a href="#" class="btn rounded-pill bg-success text-center w-25 text-white">
+                    Get started
+                </a>
+                <img src="image/" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="js/amir.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

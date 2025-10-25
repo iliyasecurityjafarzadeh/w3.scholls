@@ -1,0 +1,76 @@
+.amir{
+    color: white;
+}
+.amir:hover{
+    background-color: black;
+    padding: 0.25rem;
+}
+.amir2:hover{
+background-color: rgba(128, 128, 128, 0.21);
+
+}
+.khat{
+    text-decoration: none;
+}
+.border{
+    border: 1rem solid pink;
+    background-color: pink;
+    width: 40rem;
+}
+.bg{
+    background-color: rgb(40, 35, 50);
+}
+.card{
+    background-color: pink;
+    
+}
+.card1{
+    background-color: rgba(227, 243, 4, 0.826);
+    color: black;
+}
+.card2{
+    background-color: rgba(0, 136, 255, 0.804);
+    color: black;
+}
+.bg-pink{
+    background-color: pink;
+}
+.pt-10{
+    padding: 7rem;
+}
+.font{
+    font-size: 3rem;
+}
+.font1{
+    font-size: 1.5rem;
+}
+.hover{
+    background-color: rgb(12, 173, 12);
+}
+.hover:hover{
+    background-color: rgba(0, 128, 15, 0.596);
+}
+.hover1{
+    background-color: rgb(149, 173, 12);
+}
+.hover1:hover{
+    background-color: rgba(124, 161, 20, 0.596);
+}
+.bg-white25{
+    background-color: aliceblue;
+}
+.text-pink{
+    color: pink;
+}
+.bg-black{
+    background-color: rgba(82, 70, 70, 0.726);
+}
+.bg-black1{
+    background-color: rgb(22, 22, 23);
+}
+.iliya{
+    color: black;
+}
+.iliya:hover{
+    background-color: aquamarine;
+}
